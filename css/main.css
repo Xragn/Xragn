@@ -145,10 +145,10 @@ li,
   --wt-text-p: #cecece;
   --wt-text-1: #5B5B5B;
   --wt-text-2: #bfbfbf;
-  --wt-theme-primary: #7C02FF;
-  --wt-theme-primary-3: #FFF033;
-  --wt-theme-primary-4: #F1FF9D;
-  --wt-border-primary: #7C02FF;
+  --wt-theme-primary: #ffce44;
+  --wt-theme-primary-3: #ffce44;
+  --wt-theme-primary-4: #ffce44;
+  --wt-border-primary: #ffce44;
   /**
   @Font-Size Declaration
   */
@@ -4749,7 +4749,7 @@ body.wt-magic-cursor #magic-cursor {
   text-transform: uppercase;
 }
 .wt-header-menu ul li .submenu {
-  position: none;
+  position: absolute;
   top: 100%;
   left: 0;
   width: 160px;
@@ -6612,7 +6612,7 @@ blockquote i {
   bottom: -120px;
   right: -240px;
   mask-image: url(../img/footer/footer-shape.svg);
-  background: #340f5b;
+  background: #ffce44;
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
@@ -7534,8 +7534,8 @@ blockquote i {
 .wt-hero-3-thumb::before {
   content: "";
   position: absolute;
-  width: 0px;
-  height: 0px;
+  width: 950px;
+  height: 400px;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -7549,26 +7549,26 @@ blockquote i {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .wt-hero-3-thumb::before {
-    width: 0px;
-    height: 0px;
+    width: 800px;
+    height: 340px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .wt-hero-3-thumb::before {
-    width: 00px;
-    height: 00px;
+    width: 700px;
+    height: 300px;
   }
 }
 @media (max-width: 767px) {
   .wt-hero-3-thumb::before {
-    width: 0px;
-    height: 0px;
+    width: 350px;
+    height: 155px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .wt-hero-3-thumb::before {
-    width: 0px;
-    height: 0px;
+    width: 480px;
+    height: 212px;
   }
 }
 .wt-hero-3-thumb img {
@@ -8580,7 +8580,7 @@ blockquote i {
   bottom: 0;
   right: -240px;
   mask-image: url(../img/service/service-bg-shape2.svg);
-  background: #340f5b;
+  background: #ffce44;
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
@@ -8995,7 +8995,7 @@ blockquote i {
   left: 50px;
 }
 .wt-service-3-left-item.one span {
-  background: #FFF033;
+  background: #ffce44;
 }
 .wt-service-3-left-item.two {
   position: absolute;
@@ -9526,7 +9526,7 @@ blockquote i {
   height: 74%;
   top: 52%;
   left: -10px;
-  background: #FFF033;
+  background: #ffce44;
   z-index: -1;
   transform: translateY(-50%);
 }
@@ -9962,7 +9962,7 @@ blockquote i {
   bottom: 0;
   right: -240px;
   mask-image: url(../img/service/service-bg-shape2.svg);
-  background: #340f5b;
+  background: #ffce44;
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
@@ -10199,10 +10199,10 @@ blockquote i {
   font-size: 30px;
 }
 .wt-testimonial-2-review .star-ratings {
-  -webkit-text-stroke: 1px #FFF033;
+  -webkit-text-stroke: 1px #ffce44;
 }
 .wt-testimonial-2-review .star-ratings .fill-ratings {
-  color: #FFF033;
+  color: #ffce44;
 }
 .wt-testimonial-2-img {
   max-width: 80px;
@@ -10641,7 +10641,7 @@ blockquote i {
 /*   7.2 Brand Css 
 /*----------------------------------------*/
 .wt-brand-area {
-  padding: 0 0 130px;
+  padding: 0 0 0px;
 }
 .wt-brand-wrapper {
   margin-left: 110px;
