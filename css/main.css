@@ -7531,45 +7531,18 @@ blockquote i {
     height: 570px;
   }
 }
-.wt-hero-3-thumb::before {
-  content: "";
-  position: absolute;
-  width: 950px;
-  height: 400px;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  mask-image: url(../img/hero/hero-3-thumb-shape.svg);
-  background: var(--wt-theme-primary-3);
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-size: contain;
-  backdrop-filter: blur(300px);
-  z-index: -2;
-}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .wt-hero-3-thumb::before {
-    width: 800px;
-    height: 340px;
-  }
+  
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .wt-hero-3-thumb::before {
-    width: 700px;
-    height: 300px;
-  }
+  
 }
 @media (max-width: 767px) {
-  .wt-hero-3-thumb::before {
-    width: 350px;
-    height: 155px;
-  }
+  
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .wt-hero-3-thumb::before {
-    width: 480px;
-    height: 212px;
-  }
+  
 }
 .wt-hero-3-thumb img {
   width: 100%;
